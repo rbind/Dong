@@ -79,7 +79,7 @@ params:
     twitter: ""
     weibo: ""
     weibo_url: ""
-    github: ""
+    github: "Dong"
 
   logo:
     url: "fish.png"
