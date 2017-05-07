@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cns on Dong</title>
-    <link>/cn/</link>
-    <description>Recent content in Cns on Dong</description>
+    <title>心情随笔 on Dong</title>
+    <link>/categories/%E5%BF%83%E6%83%85%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 心情随笔 on Dong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/cn/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/%E5%BF%83%E6%83%85%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

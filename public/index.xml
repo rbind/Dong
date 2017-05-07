@@ -12,24 +12,6 @@
     
     
     <item>
-      <title>hello world</title>
-      <link>/cn/2017/05/07/hello-world/</link>
-      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/cn/2017/05/07/hello-world/</guid>
-      <description>this is my first post</description>
-    </item>
-    
-    <item>
-      <title>被碰瓷了</title>
-      <link>/cn/2017/05/07/cat/</link>
-      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/cn/2017/05/07/cat/</guid>
-      <description>我在阳台浇花的时候，从花园深处冒出一只黄白色的猫，它装作一副和我很熟的样子，很不要脸地用头蹭我的裤腿，丝毫没有猫的一丝矜持。 我倒是很吃这一套</description>
-    </item>
-    
-    <item>
       <title>被碰瓷了</title>
       <link>/cn/2017/05/07/cat/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
@@ -40,10 +22,10 @@
     
     <item>
       <title>About</title>
-      <link>/en-about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      <link>/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/en-about/</guid>
+      <guid>/en/about/</guid>
       <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
     </item>
     

@@ -64,7 +64,7 @@ menu:
 
 params:
   description: "Personal Blog of Dong; Dong 的个人博客"
-  disqusURL: ""
+  disqusURL: "https://disqus.com/by/YDong/"
   fullURL: ""
   dateFormat: "2006/01/02"
   customCSS: ["css/custom.css"]
