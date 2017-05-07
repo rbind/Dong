@@ -7,6 +7,16 @@
   </url>
   
   <url>
+    <loc>/cn/2017/05/07/cat/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cn/2017/05/07/cat/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/en-about/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url>
@@ -35,6 +45,18 @@
   
   <url>
     <loc>/cn/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%BF%83%E6%83%85%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%8C%AB/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

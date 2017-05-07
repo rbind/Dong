@@ -42,12 +42,9 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
-    - name: "MetaWorkflow"
-      url: "/metaworkflow/"
-      weight: 5
     - name: "中文"
       url: "/cn/"
-      weight: 6
+      weight: 5
   cn:
     - name: "首页"
       url: "/"
@@ -66,13 +63,12 @@ menu:
       weight: 5
 
 params:
-  description: "Personal website of Miao Yu; 于淼的个人网站"
+  description: "Personal Blog of Dong; Dong 的个人博客"
   disqusURL: ""
   fullURL: ""
   dateFormat: "2006/01/02"
   customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
-  githubContentURL: "https://github.com/yufree/yufree.cn/edit/master/content/"
 
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion: "9.9.0"
