@@ -1,10 +1,10 @@
 baseurl: "/"
 relativeurls: true
 languageCode: "en-us"
-title: "Dong "
+title: "Dong"
 theme: "hugo-lithium-theme"
 googleAnalytics: "UA-43118729-1"
-disqusShortname: "yufree"
+disqusShortname: "Dong"
 ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
@@ -28,9 +28,7 @@ menu:
     - name: "博客"
       url: "/cn/"
       weight: 4
-    - name: "APP"
-      url: "/app/"
-      weight: 5
+      
   en:
     - name: "Home"
       url: "/"
@@ -63,12 +61,9 @@ menu:
     - name: "简历"
       url: "/cn/vitae/"
       weight: 4
-    - name: "笔记"
-      url: "/notes/"
-      weight: 5
     - name: "English"
       url: "/en/"
-      weight: 6
+      weight: 5
 
 params:
   description: "Personal website of Miao Yu; 于淼的个人网站"
@@ -85,22 +80,22 @@ params:
   highlightjsTheme: "github"
 
   social:
-    twitter: "yu_free"
-    weibo: "贫道yufree"
-    weibo_url: "yufreecas"
-    github: "yufree"
+    twitter: ""
+    weibo: ""
+    weibo_url: ""
+    github: ""
 
   logo:
     url: "fish.png"
     width: 50
     height: 50
-    alt: "Yufree"
+    alt: "Dong"
 
   author:
-    en: "Miao Yu"
-    cn: "于淼"
+    en: "Dong"
+    cn: "Dong"
 
   lang:
     edit:
-      en: "Suggest an edit of this page"
+      en: "Edit this page"
       cn: "编辑本页"
