@@ -70,7 +70,6 @@ menu:
       url: "/en/"
       weight: 6
 
-
 params:
   description: "Personal website of Miao Yu; 于淼的个人网站"
   disqusURL: ""
