@@ -5,11 +5,16 @@ body {
   position: relative;
 }
 
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
+body
+{
+    font-size:18px;
+    font-family:"Merriweather Sans","Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    color:#323031;
+    background-color:#f1f3ec;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
 }
 
 h1,
@@ -18,15 +23,20 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222;
+  color: #323031;
 }
 
 a {
-  outline: none;
+  color:#323031;
+  text-decoration:underline;
 }
 
-code {
-  background-color: rgba(0, 0, 0, 0.02);
+a:hover
+{
+    color:#c8d0d3;
+}
+code .MathJax {
+  background-color: white;
 }
 
 .wrapper {
@@ -37,8 +47,8 @@ code {
 .header {
   padding: 20px 0;
   position: relative;
-  background: #f5f5f5;
-  border-bottom: 1px solid #eaeaea;
+  background: #e2e6e2;
+  border-bottom: 1px solid #f1f3ec;
 }
 
 .nav {
@@ -83,11 +93,11 @@ code {
 
 .nav-links a {
   text-decoration: none;
-  color: #111;
+  color: #323031;
 }
 
 .nav-links a:hover {
-  color: #000;
+  color: #c8d0d3;
 }
 
 .content {
@@ -96,18 +106,18 @@ code {
   padding: 0 15px;
   font-size: 16px;
   line-height: 1.7;
-  color: #333;
+  color: #323031;
 }
 
 .article-title {
   font-size: 34px;
-  color: #222;
+  color: #323031;
   margin: 0;
   line-height: 1.3;
 }
 
 .article-date {
-  color: #ccc;
+  color: #848a91;
 }
 
 .article-duration {
@@ -128,15 +138,14 @@ code {
 .article-content a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 3px solid #CBF8DF;
-  box-shadow: inset 0 -4px 0 #CBF8DF;
+  border-bottom: 3px solid #c8d0d3;
   background: transparent;
   transition: background 150ms ease;
 }
 
 .article-content a:hover,
 .article-content a:focus {
-  background: #CBF8DF;
+  background: #c8d0d3;
 }
 
 .article-content hr {
@@ -145,9 +154,16 @@ code {
   height: 1px;
   overflow: hidden;
   border: none;
-  background: #e5e5e5;
+  background: #c8d0d3;
 }
-
+.article-content img{
+    max-width:600px;
+    display:block;
+    margin:4px auto;
+    -webkit-box-shadow:#999 1px 1px 4px;
+    -moz-box-shadow:#999 1px 1px 4px;
+    box-shadow:#999 1px 1px 4px;
+}
 .highlight {
   border-radius: 3px;
   position: relative;
@@ -165,7 +181,7 @@ code {
   list-style: none;
   line-height: 1.3em;
   text-align: center;
-  color: #111;
+  color: #323031;
 }
 
 .archive-title {
@@ -179,7 +195,7 @@ code {
 }
 
 .archive-item-date {
-  color: #ccc;
+  color: #848a91;
   font-size: 14px;
   padding: 5px 0;
   margin-top: 5px;
@@ -191,13 +207,12 @@ code {
   text-decoration: none;
   font-size: 21px;
   font-weight: bold;
-  color: #222;
+  color: #323031;
   padding: 5px 0;
-  border-bottom: 1px solid #ddd;
 }
 
 .archive-item-link:hover {
-  border-bottom-color: #222;
+  border-bottom-color: #c8d0d3;
 }
 
 .footer {
@@ -209,7 +224,7 @@ code {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #ccc;
+  color: #848a91;
   font-size: 14px;
 }
 
@@ -220,7 +235,7 @@ code {
 }
 
 .footer-links a {
-  color: #888;
+  color: #c8d0d3;
   text-decoration: none;
   transition: color 150ms ease;
   margin: 0 15px;
@@ -228,7 +243,7 @@ code {
 
 .footer-links a:hover,
 .footer-links a:focus {
-  color: #222;
+  color: #c8d0d3;
 }
 
 .footer-links li::before {
@@ -308,14 +323,5 @@ code {
 
   .footer-links {
     font-size: inherit;
-  }
-}
-
-@media print {
-  .header, .footer {
-    display: none;
-  }
-  .article-content a {
-    box-shadow: none;
   }
 }
