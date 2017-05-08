@@ -132,7 +132,7 @@ code .MathJax {
 .article-content a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid #ffddde;
+  border-bottom: 2px solid #ffddde;
   background: transparent;
   transition: background 150ms ease;
 }
