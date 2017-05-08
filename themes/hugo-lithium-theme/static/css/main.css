@@ -132,14 +132,15 @@ code .MathJax {
 .article-content a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 2px solid #ffddde;
+  border-bottom: 1px solid #CBF8DF;
+  box-shadow: inset 0 -2px 0 #CBF8DF;
   background: transparent;
   transition: background 150ms ease;
 }
 
 .article-content a:hover,
 .article-content a:focus {
-  background: #ffddde;
+  background: #CBF8DF;
 }
 
 .article-content hr {
