@@ -78,7 +78,7 @@ params:
 
 
   logo:
-    url: "fish.png"
+    url: "turtle.jpg"
     width: 50
     height: 50
     alt: "Dong"
