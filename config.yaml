@@ -74,7 +74,12 @@ params:
   highlightjsVersion: "9.9.0"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
-
+  
+   social:
+    twitter: "_djli"
+    github: "daijiang"
+    weibo: "李代江"
+    weibo_url: "mydyo"
 
   logo:
     url: "fish.png"
