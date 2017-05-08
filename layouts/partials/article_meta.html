@@ -9,6 +9,9 @@
   <span>{{ with or (or .Params.author (index .Site.Params.author .Section)) "" }} {{  print . " · " }} {{ end }} {{ .Date.Format "2006/01/02" }}</span>
   <span class="article-toolbar">
     {{ with .Section }}
+    <a href="/{{ . }}/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
+    {{ end }}
+ 
     {{ with .Site.Params.githubContentURL }}
     {{ $.Scratch.Set "filePath" $.File.Path }}
     {{ if $.Params.from_Rmd }}
