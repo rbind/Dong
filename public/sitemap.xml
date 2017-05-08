@@ -32,6 +32,10 @@
   </url>
   
   <url>
+    <loc>/cn/about/</loc>
+  </url>
+  
+  <url>
     <loc>/en/about/</loc>
   </url>
   
@@ -47,10 +51,6 @@
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/cn/about/</loc>
   </url>
   
   <url>
