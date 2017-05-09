@@ -5,7 +5,7 @@ disable_mathjax: true
 disable_highlight: true
 ---
 
-[Blog](/)       
+     
 
-MS Imaging | Metabolomics | Chemical Ecology | Chemometrics
+<center>MS Imaging | Metabolomics | Chemical Ecology | Chemometrics</center>
 

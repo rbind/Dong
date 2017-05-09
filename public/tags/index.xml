@@ -10,5 +10,14 @@
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>写作</title>
+      <link>/tags/%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E5%86%99%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

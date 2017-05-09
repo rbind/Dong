@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>this is test</title>
-      <link>/cn/2017/05/08/this-is-test/</link>
-      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/cn/2017/05/08/this-is-test/</guid>
-      <description>其实是一个</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/404/</link>
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
@@ -39,12 +30,21 @@
     </item>
     
     <item>
+      <title>我欣赏的写作风格</title>
+      <link>/cn/2014/11/30/writing-style/</link>
+      <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/cn/2014/11/30/writing-style/</guid>
+      <description>读文献是做科研中重要的一步。每个科研工作者，无论本科生还是资深教授都会读阅文献。据说有些日本人从不读文献，这样有助于他们做出更多多创新的东西</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/cn/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cn/about/</guid>
-      <description>不知说什么 MS Imaging | Metabolomics | Chemical Ecology | Chemometrics</description>
+      <description>博客</description>
     </item>
     
     <item>
