@@ -7,5 +7,5 @@ disable_highlight: true
 
      
 
-<center>MS Imaging | Metabolomics | Chemical Ecology | Chemometrics</center>
+<center>MS Imaging | Metabolomics | Chemometrics</center>
 
