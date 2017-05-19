@@ -316,14 +316,6 @@ code .MathJax {
 }
 
 
-blockquote {
-  padding: 0 20px;
-  margin:0;
-  font-size: 16px;
-  color: #474747;
-  border-left: 4px solid #CBF8DF;
-}
-
 @media print {
   .header, .footer {
     display: none;
