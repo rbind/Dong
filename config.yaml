@@ -64,8 +64,8 @@ menu:
 
 params:
   description: "Personal Blog of Dong; Dong 的个人博客"
-  disqusURL: "https://dong.netlify.com"
-  fullURL: "https://dong.netlify.com"
+  disqusURL: "http://www.dong.bio"
+  fullURL: "http://www.dong.bio"
   dateFormat: "2006/01/02"
   customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
