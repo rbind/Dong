@@ -8,7 +8,6 @@ disqusShortname: "http-www-dong-bio"
 ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
-math: true
 footnotereturnlinkcontents: "↩"
 
 permalinks:
@@ -76,6 +75,8 @@ params:
   highlightjsVersion: "9.9.0"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
+  MathJaxCDN: "//cdn.bootcss.com"
+  MathJaxVersion: "2.7.1"
 
 
   logo:
