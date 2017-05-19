@@ -5,7 +5,7 @@ disable_mathjax: true
 disable_highlight: true
 ---
 
-![tomato-西红柿](http://image.bitcron.com/tomato.jpg)
+![Tomato-西红柿](http://i.imgur.com/X2QElDQ.jpg)
 
 <center>MS Imaging | Metabolomics | Chemometrics</center>
 
