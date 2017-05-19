@@ -75,8 +75,6 @@ params:
   highlightjsVersion: "9.9.0"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
-  MathJaxCDN: "//cdn.bootcss.com"
-  MathJaxVersion: "2.7.1"
 
 
   logo:
