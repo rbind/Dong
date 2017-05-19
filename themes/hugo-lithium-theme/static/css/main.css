@@ -324,3 +324,11 @@ code .MathJax {
     box-shadow: none;
   }
 }
+
+blockquote {
+     position: relative;
+     display: inline-block;
+     padding: 0 15px;
+     margin: 0px auto;
+     border-left: 4px solid #CBF8DF;
+ }
