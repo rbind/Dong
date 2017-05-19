@@ -319,7 +319,8 @@ code .MathJax {
 blockquote {
   padding: 0 15px;
   margin:0;
-  color: #666;
+  color: #333;
+  font-size:17px;
   border-left: 4px solid #CBF8DF;
 }
 
