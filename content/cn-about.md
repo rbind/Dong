@@ -18,7 +18,7 @@ disable_comments: true
 
 - 博客内容主要是自己生活和科研方面的记录
 
-- 博客采用 Blogdown + Hugo 搭建。博客模版来自[谢益辉](www.yihui.name)，博客风格参考了[于淼](www.yufree.cn),在此一并感谢。
+- 博客采用 Blogdown + Hugo 搭建。博客模版来自[谢益辉](https://yihui.name)，博客风格参考了[于淼](https://yufree.cn),博客搭建中受到了[赵鹏](http://www.pzhao.org)一系列相关博文的帮助，在此一并感谢。
 
 - 博文谢绝任何形式的转载
 
