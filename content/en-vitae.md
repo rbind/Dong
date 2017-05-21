@@ -3,5 +3,12 @@ slug: "en/vitae"
 disable_comments: true
 ---
 
-nothing
+## Resume       
+
+[My full CV](/CV/YonghuiDong_en.pdf)    
+
+## Contact
+
+Email: yonghui.dong@gmail.com
+
       
