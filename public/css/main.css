@@ -330,5 +330,6 @@ blockquote {
      display: inline-block;
      padding: 0 15px;
      margin: 0px auto;
+     font-size:0.9em;
      border-left: 4px solid #CBF8DF;
  }
