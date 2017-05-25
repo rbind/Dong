@@ -98,7 +98,7 @@ code .MathJax {
   max-width: 700px;
   margin: 40px auto 10px;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
   color: #282828;
 }
@@ -173,7 +173,7 @@ code .MathJax {
 }
 
 .archive-title {
-  font-size: 32px;
+  font-size: 30px;
   margin-top: 60px;
 }
 
@@ -329,7 +329,7 @@ blockquote {
      position: relative;
      display: inline-block;
      padding: 0 15px;
-     margin: 0px auto;
+     margin: 0 auto;
      font-size:0.9em;
      border-left: 4px solid #CBF8DF;
  }
