@@ -1,8 +1,20 @@
 ---
-title: "About"
 slug: "en/about"
 disable_comments: true
 ---
+**About Me**
 
-nothing
+I am a postdoctoral fellow. My primary research interests include mass spectrometry imaging, metabolomics and chemometrics. 
+
+"Publish or perish" is a harsh reality for most pocdocs. A [research article](http://www.cell.com/current-biology/abstract/S0960-9822(14)00477-1) indeed highlighted the correlation between publishing in high-impact-factor(HIF) journals and getting a faculty position. The authors even provided an [online tool](http://www.pipredictor.com) for those who are interested in calculating their likelihood of becoming a principal investigator (PI) according to their academic achievements.   
+
+
+I do not have any papers published in HIF journals, but I do enjoy my research projects.
+
+**About My Blog** 
+
+Personal research and life-style blog, do not reproduce without permission.      
+
+Created with Hugo + Blogdown, the template is kindly provided by [Xie Yihui](https://yihui.name).
+
  

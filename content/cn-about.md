@@ -14,9 +14,9 @@ disable_comments: true
 ## 关于博客
 
 
-- 博客内容主要是对自己生活和科研方面的记录，博文谢绝任何形式的转载。
+- 博客内容主要是对自己生活和科研方面的记录，未经允许谢绝任何形式的转载。
 
-- 博客采用 Blogdown + Hugo 搭建。博客模版来自[谢益辉](https://yihui.name)，博客搭建参考了[赵鹏](http://www.pzhao.org/zh/)的一系列博文，在此一并感谢。
+- 博客采用 Blogdown + Hugo 搭建。博客模版来自[谢益辉](https://yihui.name)，在此感谢。
 
 
 
