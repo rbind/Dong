@@ -9,7 +9,7 @@ I am a postdoctoral fellow. My primary research interests include mass spectrome
 "Publish or perish" is a harsh reality for most pocdocs. A [research article](http://www.cell.com/current-biology/abstract/S0960-9822(14)00477-1) indeed highlighted the correlation between publishing in high-impact-factor(HIF) journals and getting a faculty position. The authors even provided an [online tool](http://www.pipredictor.com) for those who are interested in calculating their likelihood of becoming a principal investigator (PI) according to their academic achievements.   
 
 
-I do not many papers, and none of them were published in HIF journals, but I still enjoy doing research.
+I do not have many papers, and none of them were published in HIF journals, but I still enjoy doing research.
 
 **About My Blog** 
 
