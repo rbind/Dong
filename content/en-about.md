@@ -13,7 +13,7 @@ I do not have many research papers, and none of them were published in HIF journ
 
 **About My Blog** 
 
-Personal research and life-style blog, do not reproduce without permission.      
+Personal research- and life-style blog, do not reproduce without permission.      
 
 Created with Hugo + Blogdown. The template is kindly provided by [Xie Yihui](https://yihui.name).
 
