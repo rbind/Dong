@@ -89,16 +89,21 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cn/about/</guid>
-      <description>关于博主 博后, 主要从事植物代谢成像学，代谢组学和化学计量学的研究。科研上还没有取得任何拿得出手的成就，依然在科研的路上前行。 关于博客 博客内容</description>
+      <description>关于博主 博士后, 主要从事植物代谢成像学，代谢组学和化学计量学的研究。 关于博客 博客内容主要是对自己生活和科研方面的记录，未经允许谢绝任何形式的</description>
     </item>
     
     <item>
       <title></title>
-      <link>/cn/vitae/</link>
+      <link>/cn-vitae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cn/vitae/</guid>
-      <description>简历 中文简历 英文简历 联系 Email：yonghui.dong@gmail.com</description>
+      <guid>/cn-vitae/</guid>
+      <description>code{white-space: pre;}   Yonghui Dong  Specialties: C++, Python, Linux, Operations Research
+Doctor in Computer Science and Mathematics
+ Corporate Experience  Since 2013 Data Scientist for Airconomy (Frankfurt am Main, Germany).
+Data mining on various sources to forecast passenger demands over airline networks.
+ 2009-2012 PhD in Operations Research with Amadeus (Sophia Antipolis, France).
+Researched how to assign aircraft on an airline network in the most efficient way.</description>
     </item>
     
     <item>
