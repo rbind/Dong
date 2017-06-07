@@ -94,16 +94,11 @@
     
     <item>
       <title></title>
-      <link>/cn-vitae/</link>
+      <link>/cn/vitae/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cn-vitae/</guid>
-      <description>code{white-space: pre;}   Yonghui Dong  Specialties: C++, Python, Linux, Operations Research
-Doctor in Computer Science and Mathematics
- Corporate Experience  Since 2013 Data Scientist for Airconomy (Frankfurt am Main, Germany).
-Data mining on various sources to forecast passenger demands over airline networks.
- 2009-2012 PhD in Operations Research with Amadeus (Sophia Antipolis, France).
-Researched how to assign aircraft on an airline network in the most efficient way.</description>
+      <guid>/cn/vitae/</guid>
+      <description>简历 中文简历 英文简历 联系 Email：yonghui.dong@gmail.com</description>
     </item>
     
     <item>
