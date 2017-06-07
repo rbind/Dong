@@ -27,11 +27,11 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
-    - name: "About"
-      url: "/en/about/"
-      weight: 2
     - name: "Blog"
       url: "/en/"
+      weight: 2
+    - name: "About"
+      url: "/en/about/"
       weight: 3
     - name: "Vitae"
       url: "/en/vitae/"
@@ -43,11 +43,11 @@ menu:
     - name: "首页"
       url: "/"
       weight: 1
-    - name: "关于"
-      url: "/cn/about/"
-      weight: 2
     - name: "博客"
       url: "/cn/"
+      weight: 2
+    - name: "关于"
+      url: "/cn/about/"
       weight: 3
     - name: "简历"
       url: "/cn/vitae/"
@@ -69,7 +69,9 @@ params:
   highlightjsVersion: "9.9.0"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
-
+ 
+  social:
+    github: "YonghuiDong"
 
   logo:
     url: "turtle.jpg"
