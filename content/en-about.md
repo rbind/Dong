@@ -15,6 +15,6 @@ I do not have many research papers, and none of them were published in HIF journ
 
 Personal research- and life-style blog, do not reproduce without permission.      
 
-Created with Hugo + Blogdown. The template is kindly provided by [Xie Yihui](https://yihui.name).
+Created with Hugo + Blogdown. The template is kindly provided by [Yihui Xie](https://yihui.name).
 
  
