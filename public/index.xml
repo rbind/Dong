@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homepage on Dong | 董 </title>
+    <title>Homepage on Dong | 董</title>
     <link>/</link>
-    <description>Recent content in Homepage on Dong | 董 </description>
+    <description>Recent content in Homepage on Dong | 董</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
@@ -35,7 +35,7 @@
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/404/</guid>
-      <description>Ooops,404 Page Not Fonud Return Homepage</description>
+      <description>Ooops, 404 Page Not Fonud</description>
     </item>
     
     <item>
@@ -98,7 +98,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cn/vitae/</guid>
-      <description>简历 中文简历 英文简历 联系 Email：yonghui.dong@gmail.com</description>
+      <description>简历 教育背景 2010.11-2014.06 博士 生物有机化学课题组，特伦托大学, 意大利 (megna cum laude) 2008.09-2010.09 硕士 农学院，博洛尼亚大学, 意大利 (cum laude) 生命科学系，慕尼黑工业大学, 德国 (Distinction) 维也纳</description>
     </item>
     
     <item>
@@ -118,8 +118,13 @@ I am a postdoctoral fellow. My primary research interests include mass spectrome
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/vitae/</guid>
-      <description>Resume My full CV
-Contact Email: yonghui.dong@gmail.com</description>
+      <description>Resume Education  2010.11-2014.06 Ph.D.
+  Physics Department, Trento University, Italy (megna cum laude)
+  2008.09-2010.09 M.Sc.
+  Department of Agricultural Sciences, University of Bologna, Italy (110L/110, cum laude)
+   School of Life Sciences, Munich University of Technology, Germany (Distinction)
+ University of Natural Resources and Applied Life Sciences, Austria (Distinction)
+  2003.09-2008.09 B.Sc.  College of Life Science, Northwest A&amp;amp;F University, China</description>
     </item>
     
   </channel>

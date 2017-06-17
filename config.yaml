@@ -1,7 +1,7 @@
 baseurl: "/"
 relativeurls: true
 languageCode: "en-us"
-title: "Dong | 董 "
+title: "Dong | 董"
 theme: "hugo-lithium-theme"
 googleAnalytics: "UA-43118729-1"
 disqusShortname: "http-www-dong-bio"
@@ -24,37 +24,31 @@ menu:
       weight: 2
  
   en:
-    - name: "Home"
-      url: "/"
-      weight: 1
     - name: "Blog"
       url: "/en/"
-      weight: 2
+      weight: 1
     - name: "About"
       url: "/en/about/"
-      weight: 3
+      weight: 2
     - name: "Vitae"
       url: "/en/vitae/"
-      weight: 4
+      weight: 3
     - name: "中文"
       url: "/cn/"
-      weight: 5
+      weight: 4
   cn:
-    - name: "首页"
-      url: "/"
-      weight: 1
     - name: "博客"
       url: "/cn/"
-      weight: 2
+      weight: 1
     - name: "关于"
       url: "/cn/about/"
-      weight: 3
+      weight: 2
     - name: "简历"
       url: "/cn/vitae/"
-      weight: 4
+      weight: 3
     - name: "English"
       url: "/en/"
-      weight: 5
+      weight: 4
 
 params:
   description: "Personal Blog of Dong; Dong 的个人博客"
@@ -80,8 +74,8 @@ params:
     alt: "Dong"
 
   author:
-    en: "Dong"
-    cn: "董"
+    en: "Yonghui Dong"
+    cn: "董永辉"
 
   lang:
     edit:
