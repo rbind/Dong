@@ -3,8 +3,6 @@ slug: "en/vitae"
 disable_comments: true
 ---
 
-Resume 
---------------------
 
 ## Education
 

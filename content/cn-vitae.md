@@ -3,8 +3,6 @@ slug: "cn/vitae"
 disable_comments: true
 ---
 
-简历
---------------------
 
 ## 教育背景
 
