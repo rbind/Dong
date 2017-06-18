@@ -42,7 +42,7 @@ Resume
 
 ## Full CV
 
-[CV](/CV/YonghuiDong_en.pdf)    
+[My CV](/CV/YonghuiDong_en.pdf)    
 
 
 ## Contact      
