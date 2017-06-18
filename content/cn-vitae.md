@@ -38,14 +38,10 @@ disable_comments: true
 
 - 物理学院, 特伦托大学, 意大利
 
+## 完整简历     
+
+联系索取        
 
 ## 联系
 Email：yonghui.dong@gmail.com
-
-## 完整简历
-
-[中文简历](/CV/YonghuiDong_cn.pdf)  
-
-[英文简历](/CV/YonghuiDong_en.pdf)
-
 

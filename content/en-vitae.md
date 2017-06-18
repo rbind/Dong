@@ -40,7 +40,7 @@ disable_comments: true
 
 ## Full CV
 
-[My CV](/CV/YonghuiDong_en.pdf)    
+Upon Request    
 
 
 ## Contact      
