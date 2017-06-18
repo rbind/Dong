@@ -15,9 +15,9 @@ disable_comments: true
 
 - Department of Agricultural Sciences, University of Bologna, Italy (110L/110, _cum laude_)    
 
-- School of Life Sciences, Munich University of Technology, Germany (Distinction)   
+- School of Life Sciences, Munich University of Technology, Germany (_distinction_)   
     
-- University of Natural Resources and Applied Life Sciences, Austria (Distinction)
+- University of Natural Resources and Applied Life Sciences, Austria (_distinction_)
 
 2003.09-2008.09 B.Sc.   
 
@@ -38,7 +38,7 @@ disable_comments: true
 - Physics Department, Trento University, Italy          
 
 
-## Full CV
+## Full CV      
 
 Upon Request    
 

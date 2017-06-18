@@ -10,15 +10,15 @@ disable_comments: true
 2010.11-2014.06 博士   
 
 
-- 生物有机化学课题组，特伦托大学, 意大利 (_megna cum laude_)    
+- 物理学院，特伦托大学, 意大利 (_megna cum laude_)    
 
 2008.09-2010.09 硕士   
 
 - 农学院，博洛尼亚大学, 意大利 (_cum laude_)       
 
-- 生命科学系，慕尼黑工业大学, 德国 (Distinction)   
+- 生命科学系，慕尼黑工业大学, 德国 (_distinction_)   
     
-- 维也纳自然资源和应用生命科学大学, 奥地利 (Distinction)
+- 维也纳自然资源和应用生命科学大学, 奥地利 (_distinction_)
     
     
     
@@ -42,6 +42,7 @@ disable_comments: true
 
 联系索取        
 
-## 联系
+## 联系         
+
 Email：yonghui.dong@gmail.com
 
