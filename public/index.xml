@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>XCMS 包参数及优化</title>
+      <link>/cn/2017/06/20/xcms/</link>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/cn/2017/06/20/xcms/</guid>
+      <description>1.几点说明 我在代谢数据前处理过程中发现 XCMS 的参数优化非常重要（比想象中的要重要的多，这个我会在另一篇博文里专门提出来）。这也是我写这篇博文的</description>
+    </item>
+    
+    <item>
       <title>this is another test</title>
       <link>/en/2017/05/08/this-is-another-test/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
@@ -107,7 +116,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cn/vitae/</guid>
-      <description>教育背景 2010.11-2014.06 博士 生物有机化学课题组，特伦托大学, 意大利 (megna cum laude) 2008.09-2010.09 硕士 农学院，博洛尼亚大学, 意大利 (cum laude) 生命科学系，慕尼黑工业大学, 德国 (distinction) 维也纳自然</description>
+      <description>教育背景 2010.11-2014.06 博士 物理学院，特伦托大学, 意大利 (megna cum laude) 2008.09-2010.09 硕士 农学院，博洛尼亚大学, 意大利 (cum laude) 生命科学系，慕尼黑工业大学, 德国 (distinction) 维也纳自然资源和应用</description>
     </item>
     
     <item>

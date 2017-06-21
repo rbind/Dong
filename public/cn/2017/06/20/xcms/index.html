@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.20.7" />
 
 
-<title>采花药与捏鸡屁股 - Dong | 董</title>
-<meta property="og:title" content="采花药与捏鸡屁股 - Dong | 董">
+<title>XCMS 包参数及优化 - Dong | 董</title>
+<meta property="og:title" content="XCMS 包参数及优化 - Dong | 董">
 
 
 
@@ -16,6 +16,11 @@
 
 
 
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.9.0/styles/github.min.css' rel='stylesheet' type='text/css' />
 
 
 
@@ -62,15 +67,15 @@
 
   <article class="article">
     
-    <span class="article-duration">600 字</span>
+    <span class="article-duration">563 字</span>
     
-    <h1 class="article-title">采花药与捏鸡屁股
+    <h1 class="article-title">XCMS 包参数及优化
 
 </h1>
 
 
 <div class="article-date">
-  <span> 董永辉 ·   2015/06/08</span>
+  <span> 董永辉 ·   2017/06/20</span>
   <span class="article-toolbar">
     
     <a href="../../../../../cn/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
@@ -79,55 +84,90 @@
     
     
     
-    <a href="https://github.com/YonghuiDong/Blog/tree/master/content/cn/2015-06-08.md"><i class="fa fa-pencil-square-o" aria-hidden="true" title="编辑本页"></i></a>
+    <a href="https://github.com/YonghuiDong/Blog/tree/master/content/cn/2017-06-20-xcms.md"><i class="fa fa-pencil-square-o" aria-hidden="true" title="编辑本页"></i></a>
     
     </span>
 </div>
 
 
-    
+     <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#1-几点说明">1.几点说明</a></li>
+<li><a href="#2-关于-xcms">2.关于 XCMS</a>
+<ul>
+<li><a href="#3-0-准备">3.0 准备</a></li>
+<li><a href="#3-1-提取-extraction">3.1 提取（Extraction）</a></li>
+<li><a href="#3-2">3.2</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav> 
     <div class="article-content">
-      <p>采花药，听起来是一个富满雅趣的活动。当我采了一上午花药后，我估计以后我再也不会把它和清雅脱俗联系在一起了。</p>
+      
 
-<p>我不是文人墨客，没有采花酿蜜的兴致。只是因为实验需要，我才不得已拿起镊子，采集了一早上花药。更为扫兴的是，我所采的是拟南芥花，它绝无牡丹，茉莉这样的大雅之风。毫不夸张的说，你在野外见到的任何一种花都要比拟南芥漂亮许多。</p>
+<h2 id="1-几点说明">1.几点说明</h2>
 
-<p>花药是花朵中雄蕊顶端膨大呈囊状的部分，如下图所示。图片里的拟南芥花朵看起来很大，但野生型拟南芥的花苞只有8毫米左右。所以花药的采集必须在显微镜下完成。因为我采集的是花苞，所以我必拨开花瓣后才能看到花药。</p>
+<ol>
+<li><p>我在代谢数据前处理过程中发现 XCMS 的参数优化非常重要（比想象中的要重要的多，这个我会在另一篇博文里专门提出来）。这也是我写这篇博文的主要原因。</p></li>
 
-<p><img src="http://i.imgur.com/ezEHYFv.jpg" alt="flower anthers" /></p>
+<li><p>IPO 或许是一个不错的 XCMS 参数优化的 R 软件包 （我说“或许”是因为我并不熟悉 IPO，试过几次，但因为运行时间过长无果而终）。</p></li>
 
-<p>分离花药是个细活。既要完全除去萼片，花瓣，柱头等不需要的部位，又要保证在分离过程中不能挤破花药，而且所用的时间要尽量要短。采好的花药要立刻放入装有液氮的离心管中冷冻保存。</p>
+<li><p>我不是 XCMS 方面的专家，为了获得更精确的信息，个人建议参考 XCMS 的官方文档。这里有份 <a href="http://workflow4metabolomics.org/sites/workflow4metabolomics.org/files/w4e2017-EC_MSprocessing_LC-MS-2017.pdf">PPT 文档</a>，里面对 XCMS 的参数有十分清楚的介绍，是份不错的参考资料。我的这篇博文 90% 的内容是参考了 <a href="https://github.com/stanstrup/XCMS-course">stanstrup 的 XCMS 教程</a>。</p></li>
+</ol>
 
-<p>开始的为了保证质量，我采得很慢。每采好一粒花药我就立刻把它小心地移入小塑料离心管里。但这样进展实在太慢，而且时间久了，一直对着显微镜的眼睛也会非常的不舒服。再后来我发现了一个诀窍：只要拿镊子轻轻得夹花的基部，花苞就会绽放，花药也会随之暴露出来。就这样我用镊子夹着花屁股收集了一早上的花药。</p>
+<h2 id="2-关于-xcms">2.关于 XCMS</h2>
 
-<p>就在快采完花药的时候，我突然想起以前看过的一个新闻：</p>
+<p>使用或者学习 XCMS 的人对它应该都有基本的了解，所以我就直奔主题，不花笔墨介绍它了。XCMS 数据处理步骤及对应代码如下<sup class="footnote-ref" id="fnref:1"><a rel="footnote" href="#fn:1">1</a></sup>：</p>
+
+<h3 id="3-0-准备">3.0 准备</h3>
+
+<h3 id="3-1-提取-extraction">3.1 提取（Extraction）</h3>
+
+<hr />
+
+<p>这个步骤对应上图中的 <code>Filter and Idenfity Peak - 过滤和峰检测</code>, 有两种方法：</p>
 
 <blockquote>
-<p><strong>英国招收年薪4万英镑的小鸡性别鉴定师</strong></p>
-
-<p>工作内容：每天看小鸡的鸡屁屁鉴定他们的性别。<br />
-工作方法：双指挤压鸡屁股，然后鉴定小鸡性别。</p>
+<p><code>MatchedFilter</code> ： 适用于 profile 或者 centroid 模式的低分辨率数据<br />
+<code>Centwave</code>：适用于 centroid 模式的高分辨数据</p>
 </blockquote>
 
-<p>工作流程如下图。一个熟练工一个小时能看 800-1000 只鸡，也就是 3-5 秒里就要过掉一只。</p>
+<p>因为我用到的都是高分辨数据，所以下面我只专注 Centwave 方法（关于profile 和 centroid模式的区别，可以参考<a href="16">我的这篇博文</a>）</p>
 
-<p><img src="http://i.imgur.com/eXIxeMU.jpg" alt="鸡屁股" /></p>
+<p>示例代码如下：</p>
 
-<p>突然我就觉得挤鸡屁股和挤花屁股没啥区别。我似乎找到了一条发家致富的好路子。至少在我做完博后找不到工作时，可以试试在英国投个简历，申请一下小鸡性别鉴定师。</p>
+<pre><code class="language-(r)">xs = xcmsSet(inputFiles, method = 'centWave', ppm = 15, snthresh = 10, mzdiff = 0.01,
+             peakwidth = c(5,20), prefilter = c(7,0))
+</code></pre>
+
+<p>其中 ppm 和 peakwidth 为两个很重要的参数：</p>
+
+<p><code>ppm</code>： 连续扫描中 m/z 的最大耐受偏差 - maxmial tolerated m/z deviation in consecutive scans, in ppm
+<code>peakwidth</code>：色谱峰宽 - chromatographic peak width, given as range (min,max) in seconds</p>
+
+<h3 id="3-2">3.2</h3>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">XCMS 软件包近期有了较大的升级 但目前并不影响 XCMS 的使用。有时间我会写一篇 XCMS 和 XCMS3 对比的博文。
+ <a class="footnote-return" href="#fnref:1">↩</a></li>
+</ol>
+</div>
 
     </div>
     
 
 <nav id="article-nav">
     
-    <a href="../../../../../cn/2014/11/30/writing-style/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> 我欣赏的写作风格</div>
+    <a href="../../../../../cn/2017/02/12/france-conference/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> 第一次受邀在国际会议上做报告</div>
     </a>
     
 
-    
-    <a href="../../../../../cn/2016/01/26/writing-style/" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-title">又一位我欣赏的科研工作者 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
-    </a>
     
 </nav>
 <script type="text/javascript">
@@ -136,11 +176,9 @@ document.addEventListener('keyup', function(e) {
   var url = false;
   if (e.which == 37) {  
     
-    url = '\/cn\/2014\/11\/30\/writing-style\/';
+    url = '\/cn\/2017\/02\/12\/france-conference\/';
     
   } else if (e.which == 39) {  
-    
-    url = '\/cn\/2016\/01\/26\/writing-style\/';
     
   }
   if (url) window.location = url;
@@ -206,6 +244,19 @@ document.addEventListener('keyup', function(e) {
     
 
     
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 
