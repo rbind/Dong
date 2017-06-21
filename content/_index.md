@@ -7,5 +7,4 @@ disable_highlight: true
 
 ![Tomato-西红柿](http://i.imgur.com/X2QElDQ.jpg)
 
-<center>MS Imaging | Metabolomics | Chemometrics</center>
 
