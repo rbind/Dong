@@ -87,7 +87,7 @@ pre .nohighlight {
   }
 }
 .content {
-  color: #333
+  color: #333;
 }
 
 blockquote {
@@ -98,3 +98,5 @@ blockquote {
      font-size:0.9em;
      border-left: 4px solid #CBF8DF;
  }
+ 
+ 
