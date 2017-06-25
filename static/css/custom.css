@@ -6,6 +6,15 @@ a {
   border-bottom: 2px solid #ddd;
   padding-bottom: 2px;
 }
+.article-content {
+  hyphens: auto;
+}
+.cn {
+ text-align: justify;
+}
+code {
+  hyphens: none;
+}
 .article-content a {
   border-bottom: 1px solid #CBF8DF;
   box-shadow: inset 0 -2px 0 #CBF8DF;
@@ -37,7 +46,7 @@ a {
 .article-toolbar a:hover, .article-toolbar a:focus {
   color: #222;
 }
-iframe, twitterwidget {
+iframe, twitterwidget, video {
   display: block;
   margin: auto;
 }
@@ -69,6 +78,7 @@ main {
   display: block;
 }
 pre .nohighlight {
+  background-color: transparent;
   border: 1px solid #f3f3f3;
   display: block;
   padding: .5em;
@@ -86,10 +96,11 @@ pre .nohighlight {
     overflow: hidden;
   }
 }
-.content {
-  color: #333;
+@media print {
+  del {
+    display: none;
+  }
 }
-
 blockquote {
      position: relative;
      display: inline-block;
@@ -99,4 +110,5 @@ blockquote {
      border-left: 4px solid #CBF8DF;
  }
  
+
  

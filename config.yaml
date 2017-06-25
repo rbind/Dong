@@ -22,7 +22,6 @@ menu:
     - name: "中文"
       url: "/cn/"
       weight: 2
- 
   en:
     - name: "Blog"
       url: "/en/"
