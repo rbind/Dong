@@ -110,4 +110,15 @@ blockquote {
      font-size:0.9em;
      border-left: 4px solid #CBF8DF;
  }
+blockquote p:first-child {
+  margin-top: 0;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
  
+ code {
+  color:#000000;
+  background-color: #ff83c1;
+  border-radius: 5px;
+}
