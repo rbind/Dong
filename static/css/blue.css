@@ -226,8 +226,9 @@ h1 {
 html {
   font-family: Arial, "微软雅黑", sans-serif;
   font-size: 17px;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0,0,0,0.7);
   text-align: justify;
+  hyphens: auto;
 }
 
 blockquote {
