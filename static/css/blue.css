@@ -1,0 +1,267 @@
+/*************************************************
+ *  A custom theme for Hugo Academic
+ *  Set `custom_css = ["blue.css"] in `config.toml`.
+ *  Then save this file as `/static/css/blue.css` relative to your website root (i.e. not in `themes/academic` directory).
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+/* from green to blue */
+/*  change all rgb(76,175,80) --> to rgb(127,140,180) */
+/*  change all rgb(0,230,118) --> to rgb(52,60,86) */
+/*  change all rgba(0,230,118,0.6) --> rgba(127,140,180,0.6) */
+/*  change all rgba(0,230,118,1) --> rgba(52,60,86,1) */
+
+/*************************************************
+ *  Core
+ **************************************************/
+
+
+/* Headings */
+
+a,
+h3.article-title a:hover {
+  color: rgb(127,140,180); 
+}
+
+
+a:hover,
+a:focus {
+  color: rgb(52,60,86);
+}
+
+/*************************************************
+ *  Blog Articles
+ **************************************************/
+
+.article-metadata a:hover {
+  color: rgb(127,140,180);
+}
+
+/*************************************************
+ *  Button Primary: Color Override
+ **************************************************/
+
+.btn-primary {
+  border-color: rgb(127,140,180);
+  /*background: rgb(127,140,180);*/
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: rgb(127,140,180);
+}
+
+
+/*************************************************
+ *  Button Outlines
+ **************************************************/
+
+
+.btn-primary.btn-outline {
+  color: rgb(127,140,180);
+  border-color: rgb(127,140,180);
+}
+
+/*************************************************
+ *  Navigation Bar
+ **************************************************/
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: rgb(127,140,180);
+  font-weight: 700;
+  background-color: transparent !important; /* Override Bootstrap. */
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(127,140,180);
+  outline: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: rgb(127,140,180);
+    background-color: transparent;
+  }
+
+}
+
+/*************************************************
+ *  Toolbar Buttons
+ **************************************************/
+ 
+
+.btn-toolbar .btn.btn-primary {
+  background: rgb(127,140,180);
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: rgba(127,140,180,0.6);
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: rgba(52,60,86,1);
+}
+
+/*************************************************
+ *  Biography
+ **************************************************/
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+#profile .portrait {
+  background-image: url('../img/portrait.jpg');
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+
+#profile .portrait-title h3 {
+  font-size: 1.13em;
+  font-weight: 300;
+  color: #AAAAAA;
+  margin: 0px 0 10px 0;
+}
+
+#profile ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#profile .social-icon li {
+  margin-right: 10px;
+}
+
+#profile .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#profile .social-icon li:hover {
+  transform: scale(1.2)
+}
+
+.big-icon {
+  font-size: 1.6rem;
+}
+
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.8rem;
+  color: rgba(0,0,0,0.6);
+}
+
+
+/*************************************************
+ *  Publications
+ **************************************************/
+
+.pub-icon {
+  color: rgb(52,60,86);
+  font-size: 0.81em;
+  padding-top: 6px;
+}
+
+.pub-list-item .pub-publication {
+  color: rgb(132, 214, 211);
+  font-size: 1rem;
+}
+
+
+/*************************************************
+ *  Fonts (note: update link @ themes/hugo-academic/layouts/partials)
+ **************************************************/
+
+h1 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+html {
+  font-family: Arial, "微软雅黑", sans-serif;
+  font-size: 17px;
+  color: rgba(0,0,0,0.6);
+  text-align: justify;
+}
+
+blockquote {
+     position: relative;
+     display: inline-block;
+     padding: 0 15px;
+     margin: 10 10;
+     font-family: Arial,'Source Sans Pro', Tahoma, Geneva, 'STKaiti', 'KaiTi', '楷体', 'SimKai', 'DFKai-SB', 'NSimSun', serif;
+     font-size:1em;
+     border-left: 3px solid rgb(127,140,180);
+ }
+
+blockquote p:first-child {
+  margin-top: 10;
+}
+blockquote p:last-child {
+  margin-bottom: 10;
+}
+
+
+/*************************************************
+ *  Alerts
+ **************************************************/
+
+
+.alert-note {
+  color: #fff;
+  background-color: rgb(127,140,180); 
+  border-color: #bce8f1;
+}
+
+.alert-warning {
+  color: #fff;
+  background-color: rgb(238, 88, 99); 
+  border-color: #ebccd1;
+}
+  
