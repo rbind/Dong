@@ -12,7 +12,7 @@ disqusShortname = "http-www-dong-bio"
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = true
 alwaysShowLanguageChooser = true
 
@@ -166,7 +166,7 @@ alwaysShowLanguageChooser = true
   weight = 1
   
 [[Languages.zh.menu.main]]
-  name = "日志"
+  name = " 博客"
   url = "#posts"
   weight = 2
   
