@@ -29,6 +29,14 @@ a:focus {
   color: rgb(52,60,86);
 }
 
+img,
+video {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
 /*************************************************
  *  Blog Articles
  **************************************************/

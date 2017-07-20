@@ -12,7 +12,7 @@ disqusShortname = "http-www-dong-bio"
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 alwaysShowLanguageChooser = true
 
@@ -38,7 +38,7 @@ alwaysShowLanguageChooser = true
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "Mon, Jan 2, 2006"
+  date_format = "2006-01-02"
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -127,7 +127,7 @@ alwaysShowLanguageChooser = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "yonghui.dong@gmail.com"
+    link = "mailto:yiluheihei@gmail.com"
   
   [[params.social]]
     icon = "researchgate"
@@ -151,13 +151,13 @@ alwaysShowLanguageChooser = true
   weight = 1
   
 [[Languages.en.menu.main]]
-  name = "Post"
-  url = "#posts"
-  weight = 2
-
-[[Languages.en.menu.main]]
   name = "Publications"
   url = "#publications"
+  weight = 2
+  
+[[Languages.en.menu.main]]
+  name = "Contact"
+  url = "#contact"
   weight = 3
   
 [[Languages.zh.menu.main]]
