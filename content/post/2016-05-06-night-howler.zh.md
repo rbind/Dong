@@ -22,9 +22,10 @@ summary: "当别人看电影捧腹大笑的时候，我却在问自己 Night How
 
 >Night howlers contain psychotropic chemicals that have deadly effects on animals exposed to them. However, concentrated amounts of the plant's chemicals will cause larger animals to become savage if they are exposed, causing them to lose higher reasoning functions and violently lash out at anything that moves. The night howler's chemicals can even affect animals that do not have a naturally violent or ferocious disposition - as evidenced by their ability to turn non-predator animals, such as rabbits, aggressive.    
 
-这种植物真实存在吗？当然不。但我认为它是以秋水仙做为原型的。    
 
- >秋水仙 （学名：_Colchicum autumnale_ ），百合科秋水仙属植物，多年生草本球根花卉。球茎卵形，外皮黑褐色，茎极短，大部埋于地下。叶披针形，长约30cm。8～10月开花。每葶开花1～4朵，花蕾纺缍形，开放时漏斗形，淡粉红色（或紫红色），直径约7～8cm。    
+这种植物真实存在吗？当然不。但我认为它是以秋水仙做为原型的。  
+
+>秋水仙 （学名：_Colchicum autumnale_ ），百合科秋水仙属植物，多年生草本球根花卉。球茎卵形，外皮黑褐色，茎极短，大部埋于地下。叶披针形，长约 30 cm。8～10 月开花。每葶开花 1～4 朵，花蕾纺缍形，开放时漏斗形，淡粉红色（或紫红色），直径约 7～8 cm。    
 
 首先它们的十分相似： 6 瓣， 花紫色，球根植物， 茎短，埋于地下，直接从地下抽花 （电影里也是如此）。      
 

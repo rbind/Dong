@@ -14,6 +14,7 @@ weight = 1
   interests = [
     "Mass Spectrometry Imaging",
     "Metabolomics",
+    "Chemical Ecology",
     "Chemometrics"
   ]
 

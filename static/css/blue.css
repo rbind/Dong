@@ -226,24 +226,16 @@ ul.ul-edu li .description p.institution {
  **************************************************/
 
 h1 {
-  font-size: 1.6rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.7rem;
 }
 
-html {
-  font-family: Arial, "微软雅黑", sans-serif;
-  font-size: 17px;
-  color: rgba(0,0,0,0.7);
-}
 
 blockquote {
      position: relative;
      display: inline-block;
      padding: 0 15px;
      margin: 10 10;
-     font-family: Arial,'Source Sans Pro', Tahoma, Geneva, 'STKaiti', 'KaiTi', '楷体', 'SimKai', 'DFKai-SB', 'NSimSun', serif;
-     font-size:1em;
+     font-size: 0.9em;
      border-left: 3px solid rgb(127,140,180);
  }
 
@@ -253,6 +245,83 @@ blockquote p:first-child {
 blockquote p:last-child {
   margin-bottom: 10;
 }
+
+
+body, h1, h2, h3, h4, h5, h6, .navbar-brand, .nav-item, .view-all a, .dropdown a span {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'STKaiti', 'KaiTi', '楷体', 'SimKai', 'DFKai-SB', 'NSimSun', serif;
+}
+
+.portrait-title {
+  font-size: 0.8em;
+}
+
+.universal-wrapper {
+  padding-top: 20px;
+}
+
+.universal-wrapper h1 {
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.universal-wrapper div h2 a {
+  font-size: 1.3rem;
+}
+
+.col-md-12 h1 {
+  padding-bottom: 20px;
+}
+
+.col-md-12 p {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.article-style p {
+  font-size: 0.9em;
+}
+
+.nav-item a span{
+  font-size: 1.2em;
+}
+
+.dropdown a span{
+  font-size: 1.1em;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.degree {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.85rem;
+  color: rgba(0,0,0,0.8);
+}
+
+ul.ul-edu li .description p.research {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+code {
+  font-family: "Monaco", "Menlo", "Courier New", "Lucida Console", 'STKaiti', 'KaiTi', 'SimKai', monospace;
+  line-height: 1.9;
+  font-size: .85em;
+}
+
+.portrait {
+   transition: transform 0.6s;
+}
+
+.portrait:hover {
+  transform: scale(1.1);
+}
+
+
 
 
 /*************************************************
