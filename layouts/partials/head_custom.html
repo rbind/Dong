@@ -1,0 +1,8 @@
+<script async src="https://use.fontawesome.com/32c3d13def.js"></script>
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/academicons.css" media="all">
+
+{{ if .Keywords }}
+  <meta name="keywords" content="{{ delimit .Keywords ", " }}">
+  {{ else if .Site.Params.DefaultKeywords }}
+  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords ", " }}">
+{{ end }}
